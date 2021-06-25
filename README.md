@@ -11,6 +11,12 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * ![image](javascript.png)[Awesome React](https://github.com/enaqx/awesome-react)
 
 * ### Artikel und Tutorials
+  * ![image](javascript.png)[Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
+
+* ### Nützliche Helfer
+  * ![image](javascript.png)[Iconscout](https://iconscout.com/)
+
+https://iconscout.com/
 
 ## 2. Fragen und Antworten
 
