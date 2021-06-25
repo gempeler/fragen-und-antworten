@@ -7,8 +7,8 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 * ### Linksammlungen
 
-  * [React Resources](https://reactresources.com/)
-  * [Awesome React](https://github.com/enaqx/awesome-react)
+  * ![image](javascript.png)[React Resources](https://reactresources.com/)
+  * ![image](javascript.png)[Awesome React](https://github.com/enaqx/awesome-react)
 
 * ### Artikel und Tutorials
 
@@ -28,6 +28,8 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 # Javascript
 
+<br>
+<hr>
+
 #### This in Javascript
-:arrow_up:
 :arrow_up:[Nach oben](#this_in_javascript)
