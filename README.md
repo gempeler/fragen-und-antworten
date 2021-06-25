@@ -90,6 +90,13 @@ myObject.value.myFunction(); // --> undefined
 
 ### This in Arrow Funktionen  
 
+:bulb:Arrow Funktionen kennen das Konzept von ***this*** nicht. Eine Arrow Funktion hat kein eigenes ***this***. ***This*** wird wie eine normale Variable behandelt. 
+
+Es wird das ***this*** des umschliessenden **Lexical Scope** benutzt! Arrow Funktionen folgen also den normalen Regeln für Variablen. Ist eine Variable im aktuellen Scope nicht definiert, wird sie im umschliessenden Scope gesucht. Eine Arrow Funktion wird also immer ***this*** im umschliessenden Scope suchen - und zwar im **lexikalischen Scope**!
+
+
+
+
 :arrow_up:[Nach oben](#this_in_arrow_funktionen)
 
 <hr>
