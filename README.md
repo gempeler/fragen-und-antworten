@@ -13,7 +13,8 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 ## 2. Fragen und Antworten
 
 ### Javascript
-[1 This in Javascript](#this-in-javascript)
+<a name="this_in_javascript"></a>
+[This in Javascript](#this-in-javascript)
 
 ### React
 
@@ -25,5 +26,5 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 
 #### This in Javascript
-Hallo
-**[⬆ Back to Top](#1-this-in-javascript)**
+Hallo  
+**[⬆ Back to Top](this_in_javascript)**
