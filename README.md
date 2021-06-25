@@ -26,10 +26,10 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 * ### AWS
 
-# Javascript
-
 <br>
 <hr>
 
-#### This in Javascript
-:arrow_up:[Nach oben](#this_in_javascript)
+### This in Javascript  
+***This*** ist in Javascript eine Referenz auf den Execution Context. Der Wert von ***This*** hängt also nicht davon ab **wo** das Keyword benutzt wird, sondern **wie**, in welchem Kontext es aufgerufen wird!<br><br>
+Im ***globalen Ausführungskontext*** (das heisst ausserhalb jeder Funktions) verweist ***this*** auf das globale Objekt, im Webbrowser ist das **window** Objekt das globale Objekt
+<br><br>:arrow_up:[Nach oben](#this_in_javascript)
