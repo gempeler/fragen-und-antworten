@@ -1,2 +1,2 @@
-# fragen-und-antworten
-Fragen und Antworten rund um Front- und Backend Webentwicklung
+# Fragen & Antworten
+Fragen und Antworten rund um Front- und Backend Webentwicklung. 
