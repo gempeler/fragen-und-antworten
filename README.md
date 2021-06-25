@@ -7,8 +7,8 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 * ### Linksammlungen
 
-  * ![image](javascript.png)[React Resources](https://reactresources.com/)
-  * ![image](javascript.png)[Awesome React](https://github.com/enaqx/awesome-react)
+  * ![image](react.png)[React Resources](https://reactresources.com/)
+  * ![image](react.png)[Awesome React](https://github.com/enaqx/awesome-react)
 
 * ### Artikel und Tutorials
   * ![image](javascript.png)[Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
