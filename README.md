@@ -21,6 +21,10 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 * ### Javascript
   <a name="this_in_javascript"></a>
   * [This in Javascript](#this-in-javascript)
+  <a name="this_in_arrow_funktionen"></a>
+  * [This in Arrow Funktionen](#this-in-arrow-funktionen)
+  <a name="die_verschiedenen_scopes_in_javascript"></a>
+  * [Die verschiedenen Scopes in Javascript](#die-verschiedenen-scopes-in-javascript)
 
 * ### React
 
@@ -82,5 +86,30 @@ myObject.value.myFunction(); // --> undefined
 ```
 
 
+:arrow_up:[Nach oben](#this_in_javascript)
 
-<br><br>:arrow_up:[Nach oben](#this_in_javascript)
+<hr>
+
+### This in Arrow Funktionen  
+
+:arrow_up:[Nach oben](#this_in_arrow_funktionen)
+
+<hr>
+
+### Die verschiedenen Scopes in Javascript
+
+Es gibt 3 Scopes in Javascript :
+* Global Scope
+* Function Scope
+* Block Scope
+
+Wird eine Variable ausserhalb einer Funktion mit ***var*** definiert, so ist sie überall sichtbar. Dies ist der **Global Scope**.
+
+Wird eine Variable innerhalb einer Funktion mit ***var*** definiert, so ist sie nur innerhalb dieser Funktion sichtbar, das ist der **Function Scope**.
+
+Wird eine Variable mit ***let*** oder ***const*** innerhalb eines Blocks ( {} ) definiert, so ist sie nur innerhalb dieses Blocks sichtbar, dies ist der **Block Scope**
+
+
+:arrow_up:[Nach oben](#die_verschiedenen_scopes_in_javascript)
+
+
