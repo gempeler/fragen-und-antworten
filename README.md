@@ -21,10 +21,8 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 * ### Javascript
   <a name="this_in_javascript"></a>
   * [This in Javascript](#this-in-javascript)
-  <a name="this_in_arrow_funktionen"></a>
-  * [This in Arrow Funktionen](#this-in-arrow-funktionen)
-  <a name="die_verschiedenen_scopes_in_javascript"></a>
-  * [Die verschiedenen Scopes in Javascript](#die-verschiedenen-scopes-in-javascript)
+  * [This in Arrow Funktionen](#this-in-arrow-funktionen)<a name="this_in_arrow_funktionen"></a>
+  * [Die verschiedenen Scopes in Javascript](#die-verschiedenen-scopes-in-javascript)<a name="die_verschiedenen_scopes_in_javascript"></a>
 
 * ### React
 
