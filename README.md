@@ -34,9 +34,9 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 ### This in Javascript  
 ***This*** ist in Javascript eine Referenz auf den Execution Context. Der Wert von ***This*** hängt also nicht davon ab **wo** das Keyword benutzt wird, sondern **wie**, in welchem Kontext es aufgerufen wird!<br><br>
-Im ***globalen Ausführungskontext*** (das heisst ausserhalb jeder Funktions) verweist ***this*** auf das globale Objekt, im Webbrowser ist das **window** Objekt das globale Objekt
+Im ***globalen Ausführungskontext*** (das heisst ausserhalb einer Funktion) verweist ***this*** auf das globale Objekt, im Webbrowser ist das **window** Objekt das globale Objekt
 
-Im Funktionskontext hängt der Wert von this davon ab, wie diese Funktion aufgerufen wird:
+Im **Funktionskontext** hängt der Wert von this davon ab, wie diese Funktion aufgerufen wird:
 
 ```javascript
 
@@ -105,7 +105,7 @@ myFunction();  // --> window
 console.log(this); // --> window
 
 ```
-Das ist das gleiche Resultat wie bei einer normlaen Funktion - aber aus einem anderen Grund. Bei der normalen Funktion zeigt this auf das ausführende Objekt, also das window Objekt. Die Arrow Funktions kennt kein this und sucht deshalb im umgebenden lexikalischen Scope, und dies ist der globale Scope und dort ist this das window Objekt.
+Das ist das gleiche Resultat wie bei einer normalen Funktion - aber aus einem anderen Grund. Bei der normalen Funktion zeigt this auf das ausführende Objekt, also das window Objekt. Die Arrow Funktions kennt kein this und sucht deshalb im umgebenden lexikalischen Scope, und dies ist der globale Scope und dort ist this das window Objekt.
 
 :arrow_up:[Nach oben](#this_in_arrow_funktionen)
 
