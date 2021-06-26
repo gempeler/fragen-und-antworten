@@ -84,7 +84,7 @@ myObject.value.myFunction(); // --> undefined
 ```
 
 
-:arrow_up:[Nach oben] (#this_in_javascript)
+⬆️ [Nach oben](#this_in_javascript)
 
 <hr>
 
@@ -126,7 +126,7 @@ Die arrow Funktion verhält sich nicht wie eine normale Funktion. Auch hier gilt
 
 🔗 [Understanding this in arrow functions](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
 
-:arrow_up:[Nach oben] (#this_in_arrow_funktionen)
+⬆️ [Nach oben](#this_in_arrow_funktionen)
 
 <hr>
 
@@ -143,7 +143,6 @@ Wird eine Variable innerhalb einer Funktion mit ***var*** definiert, so ist sie 
 
 Wird eine Variable mit ***let*** oder ***const*** innerhalb eines Blocks ( {} ) definiert, so ist sie nur innerhalb dieses Blocks sichtbar, dies ist der **Block Scope**
 
-
-:arrow_up:[Nach oben] (#die_verschiedenen_scopes_in_javascript)
+⬆️ [Nach oben](#die_verschiedenen_scopes_in_javascript)
 
 
