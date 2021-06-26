@@ -7,14 +7,14 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 * ### Linksammlungen
 
-  * ![image](react.png)[React Resources](https://reactresources.com/)
-  * ![image](react.png)[Awesome React](https://github.com/enaqx/awesome-react)
+  * ![image](react.png) [React Resources](https://reactresources.com/)
+  * ![image](react.png) [Awesome React](https://github.com/enaqx/awesome-react)
 
 * ### Artikel und Tutorials
-  * ![image](javascript.png)[Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
+  * ![image](javascript.png) [Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
 
 * ### Nützliche Helfer
-  * ![image](layout.png)[Iconscout](https://iconscout.com/) - SVG, Icons, Grafiken etc.
+  * ![image](layout.png) [Iconscout](https://iconscout.com/) - SVG, Icons, Grafiken etc.
 
 ## 2. Fragen und Antworten
 
@@ -84,7 +84,7 @@ myObject.value.myFunction(); // --> undefined
 ```
 
 
-:arrow_up:[Nach oben](#this_in_javascript)
+:arrow_up:[Nach oben] (#this_in_javascript)
 
 <hr>
 
@@ -107,7 +107,9 @@ console.log(this); // --> window
 ```
 Das ist das gleiche Resultat wie bei einer normalen Funktion - aber aus einem anderen Grund. Bei der normalen Funktion zeigt this auf das ausführende Objekt, also das window Objekt. Die Arrow Funktions kennt kein this und sucht deshalb im umgebenden lexikalischen Scope, und dies ist der globale Scope und dort ist this das window Objekt.
 
-:arrow_up:[Nach oben](#this_in_arrow_funktionen)
+🔗 [Understanding this in arrow functions](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
+
+:arrow_up:[Nach oben] (#this_in_arrow_funktionen)
 
 <hr>
 
@@ -125,6 +127,6 @@ Wird eine Variable innerhalb einer Funktion mit ***var*** definiert, so ist sie 
 Wird eine Variable mit ***let*** oder ***const*** innerhalb eines Blocks ( {} ) definiert, so ist sie nur innerhalb dieses Blocks sichtbar, dies ist der **Block Scope**
 
 
-:arrow_up:[Nach oben](#die_verschiedenen_scopes_in_javascript)
+:arrow_up:[Nach oben] (#die_verschiedenen_scopes_in_javascript)
 
 
