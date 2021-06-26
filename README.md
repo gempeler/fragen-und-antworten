@@ -122,6 +122,8 @@ myObject.myMethod() // ---> window !!!
 
 Die arrow Funktion verhält sich nicht wie eine normale Funktion. Auch hier gilt: Arrow Funktionen verfügen nicht über ein ***this***, sie erben es von ihrem umschliessenden Objekt- In diesem Fall ist es das Objekt ***myObject*** in welchem ***this*** per Definition auf das globale Objekt zeigt, also window.
 
+**Call, apply und bind funktionieren nicht mit Arrow Funktionen. Ebenso funktioniert der new Operator nicht mit Arrow Funktionen.**
+
 
 
 🔗 [Understanding this in arrow functions](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
