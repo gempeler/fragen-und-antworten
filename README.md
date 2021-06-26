@@ -107,6 +107,23 @@ console.log(this); // --> window
 ```
 Das ist das gleiche Resultat wie bei einer normalen Funktion - aber aus einem anderen Grund. Bei der normalen Funktion zeigt this auf das ausführende Objekt, also das window Objekt. Die Arrow Funktions kennt kein this und sucht deshalb im umgebenden lexikalischen Scope, und dies ist der globale Scope und dort ist this das window Objekt.
 
+Arrow Funktion als Methode eines Objekts:
+
+```javascript
+const myObject = {
+  myMethod: () => {
+    console.log(this);
+  }
+};
+
+myObject.myMethod() // ---> window !!!
+
+```
+
+Die arrow Funktion verhält sich nicht wie eine normale Funktion. Auch hier gilt: Arrow Funktionen verfügen nicht über ein ***this***, sie erben es von ihrem umschliessenden Objekt- In diesem Fall ist es das Objekt ***myObject*** in welchem ***this*** per Definition auf das globale Objekt zeigt, also window.
+
+
+
 🔗 [Understanding this in arrow functions](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc)
 
 :arrow_up:[Nach oben] (#this_in_arrow_funktionen)
