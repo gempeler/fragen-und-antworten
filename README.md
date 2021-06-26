@@ -94,8 +94,18 @@ myObject.value.myFunction(); // --> undefined
 
 Es wird das ***this*** des umschliessenden **Lexical Scope** benutzt! Arrow Funktionen folgen also den normalen Regeln für Variablen. Ist eine Variable im aktuellen Scope nicht definiert, wird sie im umschliessenden Scope gesucht. Eine Arrow Funktion wird also immer ***this*** im umschliessenden Scope suchen - und zwar im **lexikalischen Scope**!
 
+```javascript
 
+const myFunction = () => {
+  console.log(this);
+};
 
+myFunction();  // --> window
+
+console.log(this); // --> window
+
+```
+Das ist das gleiche Resultat wie bei einer normlaen Funktion - aber aus einem anderen Grund. Bei der normalen Funktion zeigt this auf das ausführende Objekt, also das window Objekt. Die Arrow Funktions kennt kein this und sucht deshalb im umgebenden lexikalischen Scope, und dies ist der globale Scope und dort ist this das window Objekt.
 
 :arrow_up:[Nach oben](#this_in_arrow_funktionen)
 
