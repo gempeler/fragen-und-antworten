@@ -24,6 +24,8 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 * ### Javascript
   <a name="this_in_javascript"></a>
+  * [Der Execution Context](der-execution-context)<a name="der_execution_context"></a>
+  * [Die Scope Chain](die-scope-chain)<a name="die_scope_chain"></a>
   * [use strict](#use-strict)<a name="use_strict"></a>
   * [This in Javascript](#this-in-javascript)<a name="this_in_javascript"></a>
   * [This in Arrow Funktionen](#this-in-arrow-funktionen)<a name="this_in_arrow_funktionen"></a>
@@ -37,6 +39,17 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 <br>
 <hr>
 
+### Der Execution Context
+ 
+⬆️ [Nach oben](#der_execution_context)
+
+<hr>
+
+### Die Scope Chain
+ 
+⬆️ [Nach oben](#die_scope_chain)
+
+<hr>
 
 ### Use strict
 
