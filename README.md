@@ -20,7 +20,8 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 * ### Javascript
   <a name="this_in_javascript"></a>
-  * [This in Javascript](#this-in-javascript)
+  * [use strict](#use-strict)<a name="use_strict"></a>
+  * [This in Javascript](#this-in-javascript)<a name="this_in_javascript"></a>
   * [This in Arrow Funktionen](#this-in-arrow-funktionen)<a name="this_in_arrow_funktionen"></a>
   * [Die verschiedenen Scopes in Javascript](#die-verschiedenen-scopes-in-javascript)<a name="die_verschiedenen_scopes_in_javascript"></a>
 
@@ -30,6 +31,31 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 
 <br>
+<hr>
+
+
+### Use strict
+
+Der strict mode erzeugt einen Fehler wenn eine Variable nicht deklariert wurde. Im folgenden Beispiel ohne strict mode wird nicht erkannt, dass die Variable meineVar bei der erneuten Zuweisung falsch geschrieben wurde - dies produziert schwer zu findende Fehler.
+
+```javascript
+var meineVar = 0
+console.log(meineVar),
+meinVar = 1  // Neuer Wert wird zugewiesen, ABER mit Schrreibfelher.
+
+if(meineVar > 0) {
+ console.log("Hallo);
+}
+```
+
+Ausserdem verhindert der srict mode:
+* Benutzen von für zukünftige JS Versionen **reservierte Keywords**
+* Löschen von Funktionen und Variablen mit **delete**
+* Die **eval** Funktion wird sicherer, da Zuweisungen an nicht deklarierte oder bereits deklarierte Variablen verhindert werden
+
+
+⬆️ [Nach oben](#use_strict)
+
 <hr>
 
 ### This in Javascript  
