@@ -211,5 +211,40 @@ Wird eine Variable mit ***let*** oder ***const*** innerhalb eines Blocks ( {} ) 
 
 Eine **Closure** gibt einer inneren Funktion Zugriff auf den Scope einer äusseren Funktion.
 
+```javascript
+    var factoryMachHallo = function(sprache) {
+
+        var gruss;    
+
+        if( sprache === "de") {
+            gruss = "Guten Tag ";    
+        }    
+
+        if ( sprache === "en") {
+            gruss = "Good day "
+        }
+        
+
+        var sayHello = function(name) {
+            console.log(gruss + name);
+        }   
+
+        return sayHello     
+
+    }
+
+    sagHalloEnglisch = factoryMachHallo("en");
+    sagHalloDeutsch  = factoryMachHallo("de");
+    sagHalloDeutsch("Markus");
+    sagHalloEnglisch("Markus");
+    
+    // In dev Tools bei Aufrunf von sagHalloEnglisch :
+    Closure (factory)
+      gruss: "Good day "
+    
+```   
+
+Closures werden von JS automatisch erstellt wenn sie benötigt werden. Ohne eine Closure hätte im obigen Beispiel die Funktion **sagHalloDeutsch** keinen Zugriff auf den local Scope der Funktion **factoryMachHallo** da diese ja bereits ausgeführt wurde. Durch die Closure wird die lokale Variable ***gruss*** erhalten und ist für die innere Funktions ***sayHello*** zugänglich. Es wird für jeden Aufruf der Funktion ***sayHello*** eine neue Closure erstellt ( Bei Aufruf der Funktions sagHalloDeutsch ist der Wert von gruss = "Guten Tag".
+
 ⬆️ [Nach oben](#closure_link)
 
