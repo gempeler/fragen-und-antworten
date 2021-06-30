@@ -10,9 +10,12 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * ![image](react.png) [React Resources](https://reactresources.com/)
   * ![image](react.png) [Awesome React](https://github.com/enaqx/awesome-react)
 
-* ### Artikel und Tutorials
+* ### Artikel, Tutorials , Blogs
   * ![image](javascript.png) [Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
   * ![image](javascript.png) [How Javascript works](https://blog.sessionstack.com/how-javascript-works/home) 🔥 Eine Serie über die Bausteine und Internals von Javascript
+  * ![image](javascript.png) ![image](react.png) [Dmitri Pavlutiin](https://dmitripavlutin.com/) I help developers understand JavaScript and React
+
+
 
 * ### Nützliche Helfer
   * ![image](layout.png) [Iconscout](https://iconscout.com/) - SVG, Icons, Grafiken etc.
