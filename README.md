@@ -29,7 +29,7 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 
 * ### Javascript
   <a name="this_in_javascript"></a>
-  * [Der Execution Context](der-execution-context)<a name="der_execution_context"></a>
+  * [Destrukturieren von Funktionsparametern](destrukturieren-von-funktionsparametern)<a name="destrukturieren_von_funktionsparametern"></a>
   * [Die Scope Chain](die-scope-chain)<a name="die_scope_chain"></a>
   * [use strict](#use-strict)<a name="use_strict"></a>
   * [This in Javascript](#this-in-javascript)<a name="this_in_javascript"></a>
@@ -45,17 +45,14 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
 <br>
 <hr>
 
-### Der Execution Context
+### Destrukturieren von Funktionsparametern
  
-⬆️ [Nach oben](#der_execution_context)
+⬆️ [Nach oben](#destrukturieren_von_funktionsparametern)
 
 <hr>
 
-### Die Scope Chain
- 
-⬆️ [Nach oben](#die_scope_chain)
 
-<hr>
+
 
 ### Use strict
 
