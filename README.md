@@ -204,5 +204,12 @@ Wird eine Variable innerhalb einer Funktion mit ***var*** definiert, so ist sie 
 Wird eine Variable mit ***let*** oder ***const*** innerhalb eines Blocks ( {} ) definiert, so ist sie nur innerhalb dieses Blocks sichtbar, dies ist der **Block Scope**
 
 ⬆️ [Nach oben](#die_verschiedenen_scopes_in_javascript)
+<hr>
 
+
+### Closure
+
+Eine **Closure** gibt einer inneren Funktion Zugriff auf den Scope einer äusseren Funktion.
+
+⬆️ [Nach oben](#closure)
 
