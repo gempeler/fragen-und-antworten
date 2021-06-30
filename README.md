@@ -128,6 +128,15 @@ const myObject = {
 myObject.value.myFunction(); // --> undefined
 ```
 
+Mit ***call***, ***apply*** oder ***bind*** kann man den Wert von this setzen:
+
+```
+myObject.value.myFunction.call(myObject); // --> Markus
+myObject.value.myFunction.apply(myObject); // --> Markus
+myObject.value.myFunction.bind(myObject)(); // --> Markus
+
+```
+
 
 ⬆️ [Nach oben](#this_in_javascript)
 
