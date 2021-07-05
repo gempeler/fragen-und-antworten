@@ -10,7 +10,7 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * [React Resources](https://reactresources.com/)
   * [Awesome React](https://github.com/enaqx/awesome-react)
 
-* ### Artikel, 🔥Tutorials , 🌸 Blogs
+* ### 🦊Artikel, 🔥Tutorials , 🌸 Blogs
   * 🔥[Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
   * 🌸[How Javascript works](https://blog.sessionstack.com/how-javascript-works/home) Eine Serie über die Bausteine und Internals von Javascript
   * 🌸[Dmitri Pavlutiin](https://dmitripavlutin.com/) I help developers understand JavaScript and React
