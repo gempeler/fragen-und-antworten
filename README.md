@@ -10,14 +10,15 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * [React Resources](https://reactresources.com/)
   * [Awesome React](https://github.com/enaqx/awesome-react)
 
-* ### Artikel, Tutorials , Blogs
-  * [Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
-  *  [How Javascript works](https://blog.sessionstack.com/how-javascript-works/home) 🔥 Eine Serie über die Bausteine und Internals von Javascript
-  * [Dmitri Pavlutiin](https://dmitripavlutin.com/) I help developers understand JavaScript and React
-  * [Flat File CMS](https://cmsstash.de/empfehlungen/flat-file-cms)
-  * [React Micro Frontend](https://tsh.io/blog/micro-frontend-tutorial/) Ein Formular mit React erstellt in eine Webseite einbetten
-  * [How NOT to build micro frontends](https://tsh.io/blog/how-not-to-build-micro-frontends/)
-  * [Micro Front End Integration](https://martinfowler.com/articles/micro-frontends.html#Run-timeIntegrationViaJavascript) Run tine Integration Beispiel
+* ### Artikel, 🔥Tutorials , 🌸 Blogs
+  * 🔥[Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)
+  * 🌸[How Javascript works](https://blog.sessionstack.com/how-javascript-works/home) Eine Serie über die Bausteine und Internals von Javascript
+  * 🌸[Dmitri Pavlutiin](https://dmitripavlutin.com/) I help developers understand JavaScript and React
+  * 🔥[Flat File CMS](https://cmsstash.de/empfehlungen/flat-file-cms)
+  * 🔥[React Micro Frontend](https://tsh.io/blog/micro-frontend-tutorial/) Ein Formular mit React erstellt in eine Webseite einbetten
+  * 🔥[How NOT to build micro frontends](https://tsh.io/blog/how-not-to-build-micro-frontends/)
+  * 🔥[Micro Front End Integration](https://martinfowler.com/articles/micro-frontends.html#Run-timeIntegrationViaJavascript) Run tine Integration Beispiel
+  * 🌸[The software house blog](https://tsh.io/blog/) Interessant rund um React, Node etc.
 
 
 
