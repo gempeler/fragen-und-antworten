@@ -41,6 +41,7 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * [This in Arrow Funktionen](#this-in-arrow-funktionen)<a name="this_in_arrow_funktionen"></a>
   * [Die verschiedenen Scopes in Javascript](#die-verschiedenen-scopes-in-javascript)<a name="die_verschiedenen_scopes_in_javascript"></a>
   * [Closure](#closure)<a name="closure_link"></a>
+  * [React in bestehenden Seite einbetten](react-einbetten)
 
 * ### React
 
@@ -249,4 +250,25 @@ Eine **Closure** gibt einer inneren Funktion ***sayHello*** Zugriff auf den Scop
 Closures werden von JS automatisch erstellt wenn sie benötigt werden. Ohne eine Closure hätte im obigen Beispiel die Funktion **sagHalloDeutsch** keinen Zugriff auf den local Scope der Funktion **factoryMachHallo** da diese ja bereits ausgeführt wurde. Durch die Closure wird die lokale Variable ***gruss*** erhalten und ist für die innere Funktions ***sayHello*** zugänglich. Es wird für jeden Aufruf der Funktion ***sayHello*** eine neue Closure erstellt ( Bei Aufruf der Funktions ***sagHalloDeutsch*** ist der Wert von ***gruss*** = "Guten Tag").
 
 ⬆️ [Nach oben](#closure_link)
+
+
+<hr>
+
+
+### React einbetten
+
+so habe ich es auch immer gemacht:
+
+https://betterprogramming.pub/how-to-embed-a-react-application-on-any-website-1bee1d15617f
+
+Es geht auch anders:
+
+While all this is doable, it is not easy to make robust, and doing it inside NextJS makes it more cumbersome. My advice would be to structure the code of your NextJS app in such a way that the parts you need in the widget are components that you can use both in the NextJS main app and in a separate embeddable widget using plain CRA.
+
+Some further reading:
+
+https://selleo.com/blog/how-to-create-embedded-react-widget (not the iFrame parts though)
+
+https://meda.io/embed-react-into-an-html-web-page/
+
 
