@@ -271,4 +271,10 @@ https://selleo.com/blog/how-to-create-embedded-react-widget (not the iFrame part
 
 https://meda.io/embed-react-into-an-html-web-page/
 
+So sollte es doch auch gehen....
+https://maferland.com/blog/publishing-library-minimal-config
+
+
+
+
 
