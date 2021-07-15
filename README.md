@@ -19,6 +19,7 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * 🔥[How NOT to build micro frontends](https://tsh.io/blog/how-not-to-build-micro-frontends/)
   * 🔥[Micro Front End Integration](https://martinfowler.com/articles/micro-frontends.html#Run-timeIntegrationViaJavascript) Run tine Integration Beispiel
   * 🌸[The software house blog](https://tsh.io/blog/) Interessant rund um React, Node etc.
+  * 🔥[Building a react container query hook](https://non-traditional.dev/building-a-react-container-query-hook-for-dom-elements-ee25cd208740) 
 
 
 
