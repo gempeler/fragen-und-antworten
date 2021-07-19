@@ -21,6 +21,7 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * 🌸[The software house blog](https://tsh.io/blog/) Interessant rund um React, Node etc.
   * 🔥[Building a react container query hook](https://non-traditional.dev/building-a-react-container-query-hook-for-dom-elements-ee25cd208740) 
   * 🦊[CSS font-display](https://css-tricks.com/almanac/properties/f/font-display/) Wie lädt man Fonts am besten, FOIT und FOUT
+  * 🔥[]()
 
 
 
@@ -276,6 +277,40 @@ https://meda.io/embed-react-into-an-html-web-page/
 So sollte es doch auch gehen....
 https://maferland.com/blog/publishing-library-minimal-config
 
+⬆️ [Nach oben](#closure_link)
+
+
+<hr>
+
+
+### Ein div so hoch machen wie der verbleibende Raum auf der Seite
+
+
+```html
+<body>
+    <header>Header with an arbitrary height</header>
+    <main>
+        This container will grow so as to take the remaining height
+    </main>
+</body>
+```
+
+```css
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;       /* body takes whole viewport's height */
+}
+
+main {
+  flex: 1;                 /* this will make the container take the free space */
+}
+```
+
+⬆️ [Nach oben](#closure_link)
+
+
+<hr>
 
 
 
