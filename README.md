@@ -21,7 +21,7 @@ Fragen und Antworten rund um Front- und Backend Webentwicklung.
   * 🌸[The software house blog](https://tsh.io/blog/) Interessant rund um React, Node etc.
   * 🔥[Building a react container query hook](https://non-traditional.dev/building-a-react-container-query-hook-for-dom-elements-ee25cd208740) 
   * 🦊[CSS font-display](https://css-tricks.com/almanac/properties/f/font-display/) Wie lädt man Fonts am besten, FOIT und FOUT
-  * 🔥[]()
+  * 🔥[Application-state-management-with-react](https://kentcdodds.com/blog/application-state-management-with-react) Top Artikel von Kent C. Dodds
 
 
 
